@@ -1,0 +1,44 @@
+---
+title: "R Markdown Demo"
+author: "Steve Yu"
+date: "2017年6月30日"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# 標題一
+
+**粗體文字**
+
+*斜體文字*
+
+## 標題二
+
+一個資料科學團隊的組成:
+
+- 資料科學家
+    - 喜歡演算法
+    - 喜歡統計
+- 資料分析師
+    - 喜歡視覺化
+- 資料工程師
+    - 喜歡自動化
+    
+### 標題三
+
+我們要介紹的函數是 `sum()`。
+
+```{r message=FALSE, warning=FALSE}
+library(ggplot2)
+
+ggplot(cars, aes( x = speed))+
+  geom_histogram()
+```
+
+
+http://rmarkdown.rstudio.com/
+
+![](http://8comic.se/wp-content/uploads/2015/09/%E9%80%B2%E6%93%8A%E7%9A%84%E5%B7%A8%E4%BA%BA.jpg)
