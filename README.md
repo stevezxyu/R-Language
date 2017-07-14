@@ -1,2 +1,2 @@
-# my-R-language
-This is my R langueages homework
+# my_R
+This is my R langueages homework in NTU.
